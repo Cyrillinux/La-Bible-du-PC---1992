@@ -1,0 +1,37 @@
+Installation de la disquette
+
+Cet ouvrage est accompagn‚ d'une disquette 3,5" 720 Ko ou de deux disquettes 5,25" 360 Ko. Elles contiennent sous forme compact‚e tous les fichiers source des exemples importants cit‚s ou ‚tudi‚s au fil des pages.
+
+Vous trouverez sur la disquette 3,5" ou les disquettes 5,25" quatre fichiers EXE auto-d‚compactables nomm‚s :
+
+PAS.EXE	Fichiers Pascal
+C.EXE	Fichiers C
+ASM.EXE	Fichiers Assembleur
+BAS.EXE	Fichiers Basic
+
+Ces quatre fichiers ont ‚t‚ compact‚s avec le programme de compactage LHA (Copyright (C) Haruyasu Yoshizaki, 1988-91).
+
+Pour installer et d‚compacter ces groupes de fichiers sur votre disque dur (par exemple C:), vous pouvez suivre les ‚tapes d‚crites ci-dessous :
+
+1. Cr‚er un r‚pertoire de travail sur votre disque dur, par exemple C:\BIBLE, en entrant les commandes suivantes :
+C:\
+MD BIBLE
+CD BIBLE
+
+2. Activez le lecteur de disquette dans lequel vous avez plac‚ la ou les disquettes d'accompagnement fournies avec cet ouvrage :
+A: ou
+B:
+
+3. Lorsque vous ex‚cutez l'un des fichiers EXE fournis sur la disquette, les fichiers source correspondants sont automatiquement extraits et plac‚s dans un sous-r‚pertoire appropri‚.
+
+Par exemple, pour d‚compacter tous les exemples ‚crits en Pascal, entrez :
+
+A:	Active le lecteur A
+PAS.EXE C:\BIBLE	Extrait de PAS.EXE tous les fichiers n‚c‚ssaires aux programmes Pascal et les place dans le r‚pertoire C:\BIBLE\PAS
+
+De mˆme :
+C.EXE C:\BIBLE	Extrait de C.EXE tous les fichiers n‚c‚ssaires aux programmes C et les place dans le r‚pertoire C:\BIBLE\C
+BAS.EXE C:\BIBLE	Extrait de BAS.EXE tous les fichiers Basic et les place dans le r‚pertoire C:\BIBLE\BAS
+ASM.EXE C:\BIBLE	Extrait de ASM.EXE tous les fichiers Assembleur et les place dans le r‚pertoire C:\BIBLE\ASM
+
+
